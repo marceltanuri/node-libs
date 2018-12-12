@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+
+# Arquivos da IDE	
+.vscode
+.idea
+
+package-lock.json

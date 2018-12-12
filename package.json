@@ -1,0 +1,27 @@
+{
+  "name": "csf-shared-libs",
+  "version": "1.0.0",
+  "description": "Escreveu um código nos microserviços do projeto CSF e precisa replicar em outro microserviço? Sua dor de cabeça acabou, esse repositório tem como objetivo resolver esse tipo de problema.",
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab ./tests/ -v -l; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/suporte_concrete/csf_shared_libs.git"
+  },
+  "author": "Concrete Solutions - Banco Carrefour",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/suporte_concrete/csf_shared_libs#readme",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^13.1.0"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "paginator": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise-native": "https://registry.npmjs.org/request-promise-native/-/request-promise-native-1.0.5.tgz",
+    "xml2js": "^0.4.17"
+  }
+}

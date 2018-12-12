@@ -1,0 +1,15 @@
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:tem="http://tempuri.org/"
+    xmlns:car="http://schemas.datacontract.org/2004/07/Carrefour.Core.Servico.ComunicacaoBase">
+    <soapenv:Header>
+        <TokenPlataformaRelacionamento>6f1e112dd685941267868200382dc808</TokenPlataformaRelacionamento>
+    </soapenv:Header>
+    <soapenv:Body>
+        <tem:Obter>
+            <tem:solicitacao>
+                <car:CanalSolicitacao>APP</car:CanalSolicitacao>
+            </tem:solicitacao>
+        </tem:Obter>
+    </soapenv:Body>
+</soapenv:Envelope>
